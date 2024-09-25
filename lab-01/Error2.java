@@ -14,5 +14,6 @@ public class Error2 {
     number = scan.nextInt();
     numSq = number * number;
     System.out.println (name + ", the square of your number is " + numSquared);
+    scan.close();
   }
 }

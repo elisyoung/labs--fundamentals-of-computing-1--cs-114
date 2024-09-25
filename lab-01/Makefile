@@ -1,4 +1,4 @@
-filename = Error2
+filename = Names
 
 all: compile run
 
