@@ -24,8 +24,10 @@ public class Distance {
     y2 = input.nextDouble();
 
     // Compute the distance
+    distance = Math.sqrt(Math.pow((x2-x1), 2)+Math.pow((y2-y1), 2));
 
     // Print out the answer
+    System.out.println("the distance between the points is " + distance);
 
     input.close();
   }

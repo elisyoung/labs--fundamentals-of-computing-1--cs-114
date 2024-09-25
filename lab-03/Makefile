@@ -1,4 +1,4 @@
-filename = Deli
+filename = Distance
 
 all: compile run
 
