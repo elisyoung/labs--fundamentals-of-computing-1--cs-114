@@ -1,4 +1,4 @@
-filename = Distance
+filename = mathFun
 
 all: compile run
 
