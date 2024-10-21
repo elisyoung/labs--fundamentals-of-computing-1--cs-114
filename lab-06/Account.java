@@ -48,17 +48,23 @@ public class Account {
   // Returns a string containing the name, account number, and balance
   // --------------------------------------------------------------------------------
   public String toString() {
+    String acountInfo = "name: " + name + "/t acct #: " + Integer.toString(acctNum) + "/t balance: " + balance;
+    return accountInfo;
   }
 
   // --------------------------------------------------------------------------------
   // Deducts $10 service fee
   // --------------------------------------------------------------------------------
   public double chargeFee() {
+    balance -= 10;
+    return balance;
+    System.out.println("your new balance is: " + balance);
   }
 
   // --------------------------------------------------------------------------------
   // Changes the name on the account
   // --------------------------------------------------------------------------------
   public void changeName(String newName) {
+    name = newName;
   }
 }
