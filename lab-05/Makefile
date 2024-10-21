@@ -1,4 +1,4 @@
-filename = LoveCS
+filename = Factorial
 
 all: compile run
 
