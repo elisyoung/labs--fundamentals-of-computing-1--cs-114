@@ -6,10 +6,10 @@
 
 public class StudentGrades {
   public static void main(String[] args) {
-    System.out.println("///////");
+    System.out.println("///////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+    System.out.println(" ==\t\tStudent Points\t\t  ==");
+    System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\///////////////////////");
 
-    System.out.println();
-    System.out.println(" ==\t\tStudent Points\t\t==");
     System.out.println();
     System.out.println("Name\t\tLab\tPoints\tTotal");
     System.out.println("Joe\t\t43\t7\t"+(43+7));
