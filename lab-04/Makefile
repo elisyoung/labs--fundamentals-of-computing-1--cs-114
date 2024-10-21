@@ -1,4 +1,4 @@
-filename = Dice
+filename = PowersOf2
 
 all: compile run
 
