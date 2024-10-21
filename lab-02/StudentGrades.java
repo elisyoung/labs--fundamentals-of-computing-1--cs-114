@@ -6,6 +6,8 @@
 
 public class StudentGrades {
   public static void main(String[] args) {
+    System.out.println("///////");
+
     System.out.println();
     System.out.println(" ==\t\tStudent Points\t\t==");
     System.out.println();

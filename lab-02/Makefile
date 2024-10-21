@@ -1,4 +1,4 @@
-filename = Paint
+filename = StudentGrades
 
 all: compile run
 
