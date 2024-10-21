@@ -18,13 +18,13 @@ public class ManageAccounts {
     acct2.deposit(100);
 
     // Print Joe’s new balance (use getBalance())
-    acct2.getBalance();
+    System.out.println("your balance is now $" + acct2.getBalance());
 
     // Withdraw $50 from Sally’s account
-    acct2.withdraw(50);
+    acct1.withdraw(50);
 
     // Print Sally’s new balance (use getBalance())
-    acct2.getBalance();
+    System.out.println("your balance is now $" + acct1.getBalance());
 
     // Charge fees to both accounts
     acct2.chargeFee();
@@ -34,7 +34,12 @@ public class ManageAccounts {
     acct2.changeName("Joseph");
 
     // Print summary for both accounts
-    acct1.getBalance();
-    acct2.getBalance();
+    System.out.println("summary for acct1: ");
+    System.out.println(acct1.toString());
+    System.out.println();
+
+    System.out.println("summary for acct2: ");
+    System.out.println(acct2.toString());
+    System.out.println();
   }
 }

@@ -48,7 +48,7 @@ public class Account {
   // Returns a string containing the name, account number, and balance
   // --------------------------------------------------------------------------------
   public String toString() {
-    String acountInfo = "name: " + name + "/t acct #: " + Integer.toString(acctNum) + "/t balance: " + balance;
+    String accountInfo = "name: " + name + "\t acct #: " + Long.toString(acctNum) + "\t balance: " + Double.toString(balance);
     return accountInfo;
   }
 
@@ -58,7 +58,6 @@ public class Account {
   public double chargeFee() {
     balance -= 10;
     return balance;
-    System.out.println("your new balance is: " + balance);
   }
 
   // --------------------------------------------------------------------------------
